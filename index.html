@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="./assets/css/style.css">
+    <script src="https://www.gstatic.com/firebasejs/4.12.0/firebase.js"></script>
+    
+</head>
+<body>
+    <header style="background-color: #214a9c; color:#fcbf16">
+        <h1 class="text-center" >Golden State Warriors</h1>
+    </header>
+
+    <div class="container"> <!--Container for entire content-->
+        <div class="row">
+            
+                <h1 class="col-lg-12" id="contentTitle"></h1>
+            </div>
+            <div class="row">
+                    
+                    <h2 class="col-lg-12" id="gameTimeContent"></h2>
+                </div>
+        <div class="row" > <!--Two column-->
+            <section class="col-lg-3" id="schLoc"> 
+            <!--Sechdule-->
+            </section>
+
+            <section class="col-lg-9">
+
+                
+                
+                
+                <div class="row">
+                    <div class="col-lg-7">
+                        <div id="gifDisplay"></div>
+                    </div>
+
+                    <div class="col-lg-5">
+                        <div id="roster">
+                            <h3>Team Roster</h3>
+                            <div id="playerList"></div>
+                        </div>
+                    </div>
+                </div>
+                    
+            </section>
+            <div class="container mt-4">
+                    <div class="row">
+                      <div class="col-md-12">
+                        <!-- Add comment -->
+                        <div class="card mb-4">
+                          <div class="card-header">Add Comment</div>
+                          <div class="card-body">
+     
+                            <!-- Entry Form -->
+                            <form>
+                              <div class="form-group">
+                                <textarea class="form-control" id="userComment-input" row="3" placeholder="comment" type="text"></textarea>
+                              </div>
+                              <button class="btn btn-primary float-right" id="add-comment-btn">Submit</button>
+                            </form>
+     
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+     
+     
+                    <div class="row">
+     
+                      <div class="col-md-12">
+                          <div class="card-header">Comments</div>
+                          <div class="container-fluid"  >
+     
+                          </div>
+                      </div>
+                    </div>
+     
+     
+                  </div>
+     
+            </div>
+          </div>
+        </div>
+        
+        
+      
+
+
+    
+
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script type="text/javascript" src="./assets/javascript/logic.js" ></script>
+
+</body>
+</html>

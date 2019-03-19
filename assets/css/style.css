@@ -1,0 +1,99 @@
+body {
+    background-color: #efefef;;
+    font-family: 'Roboto', sans-serif;
+    background-image: url("./background.jpg");
+}
+
+p {
+    padding: 0px;
+    padding-left: 10px;
+    line-height: 1.2;
+}
+
+#roster {
+    border-style: solid;
+}
+
+@font-face {
+    font-family: copperPlate regular;
+    src: url("./CopperPlateRegular.ttf");
+  }
+
+#logo {
+    width: 100%;
+    padding: 15px;
+}
+
+h1 {
+    font-size: 55px;
+    padding: 10px;
+}
+h2 {text-align: left;}
+
+
+h3 {
+    text-align: center;
+}
+
+header {
+    font-family: copperPlate Regular;
+    margin: 0px;
+    padding: 0px;
+    line-height: 1;
+}
+#contentTitle {
+    padding: 0px;
+    margin-bottom: 0px;
+}
+.container {
+    background-color: #214a9c;
+    color: #fcbf16;
+}
+
+#schLoc {
+    border: none;
+    border-left: none;
+    border-top: none;
+    border-bottom: none;
+}
+
+.gameContainer {
+    border: solid;
+    margin-top: 0px;
+    margin-bottom: 10px;
+    margin-left: 0px;
+    margin-right: 0px;
+}
+.gameContainer:hover { 
+    background-color: #355caa;
+  }
+
+#gameTimeContent {
+    text-align: center;
+}
+
+.gif {
+    width: 100%;
+    padding: 0px;
+}
+
+#roster {
+    line-height: 0%;
+    text-align: left;
+}
+
+#gameDate {
+    text-align: center;
+    
+}
+
+ul{background:#214a9c;
+    margin-bottom:0;
+    padding:15px;
+    border-bottom:solid;
+ 
+ }
+ .card{
+    background-color:#355caa;
+    border:solid;
+ }
